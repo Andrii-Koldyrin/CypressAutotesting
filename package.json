@@ -1,5 +1,5 @@
 {
-  "name": "CypressAutomation",
+  "name": "cypressautomation",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,5 +8,10 @@
   },
   "devDependencies": {
     "cypress": "^3.1.5"
-  }
+  },
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "repository": "https://github.com/Andrii-Koldyrin/CypressAutotesting.git",
+  "author": "Andrey <Andrii.k.91@gmail.com>"
 }
